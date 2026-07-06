@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", ui-serif, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  
+  /* Deep professional colors */
+  --color-brand-primary: #1A365D; /* Deep navy */
+  --color-brand-accent: #3182CE; /* Vibrant corporate blue */
+  --color-brand-accent-light: #F8FAFC; /* Crisp slate white tint */
+  --color-brand-neutral-bg: #EDF2F7; /* Secondary cool gray */
+  --color-editorial-beige: #FFFFFF; /* High-contrast white workspace background */
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #FFFFFF;
+  color: #1A202C; /* Consistent charcoal-gray body text color from theme */
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* Custom professional scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Custom premium classes from Professional Polish spec */
+.serif-display {
+  font-family: var(--font-serif);
+}
+
+.serif {
+  font-family: var(--font-serif);
+}
+
+.tracking-widest-plus {
+  letter-spacing: 0.25em;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #F8FAFC 0%, #EDF2F7 100%);
+}
+
+/* Fine-line borders for structural professional design */
+.border-editorial {
+  border-color: rgba(26, 54, 93, 0.08);
+}
+

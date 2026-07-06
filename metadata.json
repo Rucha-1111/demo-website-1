@@ -1,0 +1,8 @@
+{
+  "name": "Chartered Accountants",
+  "description": "A timeless, sophisticated digital presence for a premium Chartered Accountants firm, featuring editorial typography, service portfolios, advisory insights, partner bios, and secure consultation requests.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
